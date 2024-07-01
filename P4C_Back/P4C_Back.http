@@ -1,0 +1,6 @@
+@P4C_Back_HostAddress = http://localhost:5057
+
+GET {{P4C_Back_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
