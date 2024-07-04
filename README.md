@@ -5,7 +5,7 @@ L'applicazione permette di eseguire le operazioni CRUD delle entità Report, Kpi
 Questa è la versione open di un'applicazione attualmente in produzione.
 
 ## Istruzioni per l'installazione
-- Lanciare lo script db.mysql presente in questa cartella per creare il database e inserire alcuni valori di test
+- Lanciare lo script db.sql presente in questa cartella per creare il database e inserire alcuni valori di test
 - Modificare a mano il database appena creato ed inserire l'id dell'utenza Windows attiva sulla macchina nel campo Utente della tabella tbl_abilitazioni (Il valore di default è "Alessio"). L'applicazione accetta solamente le richieste provenienti da utenti validati e presenti in questa tabella, di conseguenza se si omette questo passaggio tutte le richieste verranno respinte (per ottenere il proprio username digitare il comando whoami da linea di comando, e rilevare la stringa che segue l'ultimo backslash)
 - In caso di necessità modificare il server e le credenziali di accesso alla propria istanza MySQL nella AppDbConnectionString dentro appsettings.json
 ``` "AllowedHosts": "*",
